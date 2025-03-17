@@ -18,8 +18,7 @@ A simple and efficient **Product Search Engine** built with PHP, JavaScript, and
 ---
 
 ## 👤 Author
-- **Your Name** *(Replace with your name)*
-- [GitHub Profile](https://github.com/your-username)
+- **Hena Patel**
 
 ---
 
