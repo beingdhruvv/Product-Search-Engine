@@ -13,7 +13,7 @@ A simple and efficient **Product Search Engine** built with PHP, JavaScript, and
 ---
 
 ## 📷 Output Screenshot
-![Product Search Engine Screenshot](screenshot.png) *(Replace with actual image path)*
+![Product Search Engine Screenshot](screenshot.png) 
 
 ---
 
