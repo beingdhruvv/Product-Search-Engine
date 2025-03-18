@@ -49,7 +49,7 @@ Product-Search-Engine/
 ## 🛠 Installation
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/Product-Search-Engine.git
+git clone https://github.com/beingdhruvv/Product-Search-Engine.git
 cd Product-Search-Engine
 ```
 
