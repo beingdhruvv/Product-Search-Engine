@@ -18,7 +18,7 @@ A simple and efficient **Product Search Engine** built with PHP, JavaScript, and
 ---
 
 ## 👤 Author
-- **Hena Patel**
+- **Hena Patel** [GitHub Profile](https://github.com/henaviralpatel)
 
 ---
 
@@ -76,7 +76,3 @@ cd Product-Search-Engine
 This project is licensed under the **MIT License**. Feel free to modify and use it.
 
 ---
-
-## 📬 Contact
-For queries, reach out at: [GitHub Profile](https://github.com/henaviralpatel).
-```
