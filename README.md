@@ -17,11 +17,6 @@ A simple and efficient **Product Search Engine** built with PHP, JavaScript, and
 
 ---
 
-## 👤 Author
-- **Hena Patel** [GitHub Profile](https://github.com/henaviralpatel)
-
----
-
 ## 📦 Dependencies
 - PHP 7.x or higher
 - MySQL Database
