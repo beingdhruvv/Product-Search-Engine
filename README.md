@@ -1,152 +1,112 @@
-# 🚀 Product Search Engine
+# Product Search Engine
 
-![Project Banner](screenshot.png)
-
-> A dynamic and user‑friendly product search interface built with **PHP, AJAX, and MySQL** — instant search, smart filters, and real‑time results!
+A simple and efficient **Product Search Engine** built with PHP, JavaScript, and MySQL. This project allows users to search for products dynamically with filtering and sorting capabilities.
 
 ---
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/beingdhruvv/Product-Search-Engine?style=for-the-badge)
-![License](https://img.shields.io/github/license/beingdhruvv/Product-Search-Engine?style=for-the-badge)
-![Open Issues](https://img.shields.io/github/issues/beingdhruvv/Product-Search-Engine?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/beingdhruvv/Product-Search-Engine?style=for-the-badge)
+## 🎓 About This Project
+
+This project was developed as part of my **Diploma in Computer Engineering** learning journey, in collaboration with my classmate **Hena Patel**. It serves as a **beginner-level project** designed to understand and practice fundamental concepts of:
+
+- **PHP**: Server-side scripting, handling HTTP requests, and database interactions
+- **MySQL**: Database design, SQL queries, and data management
+- **AJAX/JavaScript**: Asynchronous data fetching and dynamic DOM manipulation
+- **Full-stack Integration**: Connecting frontend and backend components
+
+As a learning project, this implementation focuses on demonstrating core web development concepts rather than production-ready features. It's an excellent starting point for students and beginners who want to understand how PHP and MySQL work together to create dynamic web applications.
 
 ---
 
-## 📌 Table of Contents
-
-1. 🧠 Overview  
-2. 🛠️ Features  
-3. 📦 Tech Stack  
-4. 📁 Project Structure  
-5. ⚡ Installation  
-6. 🧠 Usage  
-7. 📸 Screenshots / Demo  
-8. 🌱 Future Roadmap  
-9. 🤝 Contributing  
-10. ❓ FAQ  
-11. 📜 License  
-12. 👤 Author  
+## 📌 Key Features
+- **Live Search**: Instantly search for products in real-time.
+- **Filtering & Sorting**: Filter by brand and sort results dynamically.
+- **Database Integration**: Fetch data from MySQL using PHP.
+- **Responsive UI**: Modern, user-friendly interface with CSS.
 
 ---
 
-## 🧠 Overview
-
-**Product Search Engine** is a lightweight real‑time search application that lets users filter and find products from a database instantly.  
-This project demonstrates backend (PHP & MySQL) communicating with frontend using AJAX for seamless user experience.
+## 📷 Output Screenshot
+![Product Search Engine Screenshot](screenshot.png) 
 
 ---
 
-## 🛠️ Features
-
-✔ Instant search suggestions  
-✔ Filter by category & brand  
-✔ Sort results (price / relevance)  
-✔ AJAX‑powered dynamic updates  
-✔ Clean and minimal UI  
-✔ Scalable architecture  
+## 📦 Dependencies
+- PHP 7.x or higher
+- MySQL Database
+- Apache Server (XAMPP, WAMP, or MAMP)
+- JavaScript (Vanilla JS)
 
 ---
 
-## 📦 Tech Stack
-
-| Component | Technology |
-|-----------|------------|
-| Backend | PHP |
-| Database | MySQL |
-| Frontend | HTML, CSS, JavaScript |
-| Dynamic Fetching | AJAX |
-| Local Server | XAMPP / WAMP / MAMP |
-
----
-
-## 📁 Project Structure
-
+## 📂 Project Structure
+```
 Product-Search-Engine/
-├── database.sql
-├── db_connect.php
-├── fetch_results.php
-├── search.php
-├── script.js
-├── style.css
-├── screenshot.png
-├── .gitignore
-└── README.md
+│── database.sql           # Database schema
+│── db_connect.php         # Database connection script
+│── fetch_results.php      # Fetches search results dynamically
+│── search.php             # Backend search logic
+│── script.js              # JavaScript for live search and filters
+│── style.css              # CSS for styling the UI
+│── screenshot.png         # Project screenshot (Add this file)
+│── .gitignore             # Excludes unnecessary files (optional)
+│── README.md              # Project documentation
+```
 
 ---
 
-## ⚡ Installation
-
-### Prerequisites
-- PHP + Apache
-- MySQL
-- Browser
-
-### Setup
-
-Clone repository
-
+## 🛠 Installation
+### 1️⃣ Clone the Repository
+```sh
 git clone https://github.com/beingdhruvv/Product-Search-Engine.git
+cd Product-Search-Engine
+```
 
-Import database into phpMyAdmin and configure credentials inside:
+### 2️⃣ Set Up the Database
+1. Create a MySQL database.
+2. Import `database.sql` into your database.
+3. Update `db_connect.php` with your database credentials.
 
-db_connect.php
-
-Run project inside server directory and open:
-
-http://localhost/Product-Search-Engine/search.php
-
----
-
-## 🧠 Usage
-
-1. Open project URL  
-2. Type product name  
-3. See results instantly  
-4. Apply filters or sorting  
+### 3️⃣ Run the Project
+- Ensure you have a local server (XAMPP, WAMP, or MAMP) running.
+- Place the project folder inside the `htdocs` directory (or equivalent).
+- Open `http://localhost/Product-Search-Engine/search.php` in your browser.
 
 ---
 
-## 📸 Screenshots
-
-Add your screenshots here.
-
----
-
-## 🌱 Future Roadmap
-
-- Product images
-- Admin dashboard
-- Full‑text search
-- Search suggestions
-- Mobile responsive UI
-- Docker support
+## 🖥 Usage
+1. Enter a keyword in the search box.
+2. Use filters and sorting options to refine results.
+3. View search results dynamically updated.
 
 ---
 
-## 🤝 Contributing
+## 💡 Concepts Learned
 
-Fork → Branch → Commit → Pull Request
+Through building this project, I gained hands-on experience with:
 
----
+- **PHP Fundamentals**: Variables, arrays, functions, and control structures
+- **MySQL Database Operations**: Creating tables, INSERT/SELECT queries, and database connections
+- **PHP-MySQL Integration**: Using `mysqli` to connect and query databases
+- **AJAX Implementation**: Asynchronous HTTP requests using JavaScript's `XMLHttpRequest` or `fetch` API
+- **Dynamic Content Loading**: Updating webpage content without page refresh
+- **Form Handling**: Processing user input and search queries
+- **SQL Query Building**: Constructing dynamic queries based on user filters
+- **Frontend-Backend Communication**: Understanding the request-response cycle
 
-## ❓ FAQ
-
-Q: Can I add more filters?  
-A: Yes, extend database and query logic.
-
-Q: How to improve performance?  
-A: Add indexing or search engine integration.
-
----
-
-## 📜 License
-
-MIT License © 2026 Dhruv Suthar
+This project helped solidify my understanding of how web applications work end-to-end, from user interaction to database retrieval and back to the user interface.
 
 ---
 
-## 👤 Author
+## 👥 Contributors
 
-Dhruv Suthar  
-GitHub: https://github.com/beingdhruvv
+- **Dhruv Suthar** - [@beingdhruvv](https://github.com/beingdhruvv)
+- **Hena Patel** - Classmate and collaborator
+
+This project was developed collaboratively as part of our Diploma in Computer Engineering coursework.
+
+---
+
+## 📝 License
+This project is licensed under the **MIT License**. Feel free to modify and use it.
+
+---
