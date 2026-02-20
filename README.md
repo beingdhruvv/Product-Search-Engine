@@ -152,10 +152,10 @@ The application follows a **client-server architecture** with clear separation o
 ### Architecture Overview
 
 ```
-┌─────────────┐         ┌─────────────┐         ┌─────────────┐
-│   Browser   │────────▶│  PHP Server │────────▶│   MySQL     │
-│ (Frontend)  │◀────────│  (Backend)  │◀────────│  (Database) │
-└─────────────┘         └─────────────┘         └─────────────┘
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│   Browser    │────▶│  PHP Server  │────▶│   MySQL      │
+│  (Frontend)  │◀────│  (Backend)   │◀────│  (Database)  │
+└──────────────┘     └──────────────┘     └──────────────┘
 ```
 
 ### Workflow
@@ -307,10 +307,8 @@ We welcome contributions! This project was developed collaboratively as part of 
 ### Core Contributors
 
 - **Dhruv Suthar** - [@beingdhruvv](https://github.com/beingdhruvv)
-  - Backend development, database design, project architecture
 
 - **Hena Patel** - [@hena82](https://github.com/hena82)
-  - Frontend development, UI/UX design, testing
 
 ### How to Contribute
 
@@ -345,18 +343,4 @@ You are free to:
 - Use privately
 - Include in proprietary software
 
----
 
-## Contact
-
-For questions, suggestions, or collaboration opportunities, feel free to reach out:
-
-- **Dhruv Suthar**
-  - GitHub: [@beingdhruvv](https://github.com/beingdhruvv)
-  
-- **Hena Patel**
-  - GitHub: [@hena82](https://github.com/hena82)
-
----
-
-**Made with dedication during our Diploma in Computer Engineering journey**
