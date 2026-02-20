@@ -320,19 +320,6 @@ We welcome contributions! This project was developed collaboratively as part of 
 
 ---
 
-## Acknowledgments
-
-Special thanks to:
-
-- Our **instructors** who provided guidance and feedback during the development process
-- Our **classmates** for testing and valuable suggestions
-- The **open-source community** for inspiration and learning resources
-- **PHP** and **MySQL** documentation teams for comprehensive resources
-
-This learning experience helped us understand the fundamentals of web development, database management, and full-stack integration, laying a strong foundation for future projects.
-
----
-
 ## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
